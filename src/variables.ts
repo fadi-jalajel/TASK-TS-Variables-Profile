@@ -9,11 +9,13 @@
  * 5. image         -> assign it a value of a url of your image or ant image that represents you online
  */
 
-let fullName: string;
-let yearOfBirth: number;
-let hobby: string;
-let funFact: string;
-let image: string;
+let fullName: string = 'Fadi Jalajel';
+let yearOfBirth: number = 1997;
+let hobby: string = 'coding';
+let funFact: string = 'I am a software engineer';
+let image: string = 'https://via.placeholder.com/150';
+
+
 
 /**
  * Part 2: String Interpolation
@@ -25,9 +27,9 @@ let image: string;
  * 3. hobbyString         -> assign it: "My hobby is {YOUR_HOBBY}""
  */
 
-let fullNameString: string;
-let ageString: string;
-let hobbyString: string;
+let fullNameString: string = 'My name is Fadi Jalajel';
+let ageString: string = 'I am 28';
+let hobbyString: string = 'My hobby is coding';
 
 /**
  * Part 3: Re-assignment
@@ -37,17 +39,17 @@ let hobbyString: string;
 let hackerScore = 0;
 
 function incrementBy1() {
-  // Increment hackerScore by 1 👇🏻
+hackerScore++;
 }
 function decrementBy1() {
-  // decrement hackerScore by 1 👇🏻
+  hackerScore--; // decrement hackerScore by 1 👇🏻
 }
 
 function incrementBy2() {
-  // Increment hackerScore by 2 👇🏻
+  hackerScore += 2; // Increment hackerScore by 2 👇🏻
 }
 function decrementBy2() {
-  // decrement hackerScore by 2 👇🏻
+   hackerScore -= 2; // decrement hackerScore by 2 👇🏻
 }
 
 // Ignore this part (:
