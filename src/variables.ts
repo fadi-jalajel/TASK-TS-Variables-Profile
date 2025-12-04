@@ -27,9 +27,9 @@ let image: string = 'https://via.placeholder.com/150';
  * 3. hobbyString         -> assign it: "My hobby is {YOUR_HOBBY}""
  */
 
-let fullNameString: string = 'My name is Fadi Jalajel';
-let ageString: string = 'I am 28';
-let hobbyString: string = 'My hobby is coding';
+let fullNameString: string = `My name is ${fullName}`;
+let ageString: string = `I am ${new Date().getFullYear() - yearOfBirth}`;
+let hobbyString: string = `My hobby is ${hobby}`;
 
 /**
  * Part 3: Re-assignment
@@ -39,7 +39,7 @@ let hobbyString: string = 'My hobby is coding';
 let hackerScore = 0;
 
 function incrementBy1() {
-hackerScore++;
+hackerScore++; // increment hackerScore by 1 👇🏻
 }
 function decrementBy1() {
   hackerScore--; // decrement hackerScore by 1 👇🏻
@@ -53,6 +53,8 @@ function decrementBy2() {
 }
 
 // Ignore this part (:
+
+
 export {
   fullName,
   yearOfBirth,
